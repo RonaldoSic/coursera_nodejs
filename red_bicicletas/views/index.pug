@@ -1,5 +1,20 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
+  header
+  ul
+    li
+      a(href='#home') Nosotros
+    li
+      a(href='#news') Bicicletas
+    li
+      a(href='#contact') Contactanos
+    li(style='float:right')
+      a.active(href='#about') ESCod
+  .hero
+    h1 Pagina de Bicicletas
+    p
+      span Hola
+      |  Buscas una Bicicletas para rentar? Miralas aqui
+    #mapid
+  
+  script(src='/javascripts/map.js')
