@@ -51,10 +51,10 @@ Bicicleta.removeById = function (aBiciId) {
 
 
 // Creando 2 Bicicletas de ejemplos
-var bici_rojo = new Bicicleta(1, "rojo", "urbana", [14.881835, -91.428036]);
-var bici_blanco = new Bicicleta(2, "blanco", "urbana", [14.877696, -91.436108]);
-var bici_azul = new Bicicleta(3, "azul", "urbana", [14.881835, -91.428036]);
-var bici_morado = new Bicicleta(4, "morado", "mazesa", [14.881835, -91.428036]);
+var bici_rojo = new Bicicleta(1, "rojo", "urbana", [14.882856, -91.429313]);
+var bici_blanco = new Bicicleta(2, "blanco", "urbana", [14.881837, -91.428023]);
+var bici_azul = new Bicicleta(3, "azul", "urbana", [14.885878, -91.43061]);
+var bici_morado = new Bicicleta(4, "morado", "mazesa", [14.885736, -91.43063]);
 // Agregamos las bicicletas al array
 Bicicleta.add(bici_rojo);
 Bicicleta.add(bici_blanco);
